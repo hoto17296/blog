@@ -1,0 +1,149 @@
+
+@font-face {
+  font-family: 'やさしさゴシック';
+  src: url('yasashisa.woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  color: #fff;
+  background-color: #9dd16d;
+}
+
+.container {
+  width: 80%;
+  padding: 0 10%;
+}
+
+#header h1 {
+  font-family: 'やさしさゴシック';
+  font-size: 400%;
+  padding: 1.5em 0;
+  background: url(header.png) no-repeat right bottom;
+}
+
+#header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#main {
+  color: #999;
+  background-color: #fff;
+  padding-bottom: 4em;
+}
+
+#footer {
+  padding: 4em 0;
+  position: relative;
+}
+
+#footer h1 {
+  font-size: 300%;
+  font-family: 'やさしさゴシック';
+  margin-bottom: .5em;
+}
+
+#footer #icon {
+  position: absolute;
+  border: 6px #fff solid;
+}
+
+#footer #profile {
+  margin-left: 160px;
+}
+
+#social {
+  font-size: medium;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+#social a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(social.png);
+}
+
+#social a span {
+  display: none;
+}
+
+#social .twitter {
+  background-position: left top;
+}
+#social a.twitter:hover,
+#social a.twitter:active {
+  background-position: left bottom;
+}
+
+#social .facebook {
+  background-position: center top;
+}
+#social a.facebook:hover,
+#social a.facebook:active {
+  background-position: center bottom;
+}
+
+#social .github {
+  background-position: right top;
+}
+#social a.github:hover,
+#social a.github:active {
+  background-position: right bottom;
+}
+
+@media screen and (max-width: 768px){
+  .container {
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  #header h1 {
+    font-size: 300%;
+    background: none;
+  }
+
+  #footer #icon {
+    display: none;
+  }
+
+  #footer #profile {
+    margin-left: 0;
+  }
+}
+
+/* Entry */
+
+article header time {
+  display: inline-block;
+  font-family: 'やさしさゴシック';
+  font-size: 150%;
+  padding: 0 .7em .5em;
+  vertical-align: top;
+  color: #fff;
+  background-color: #9dd16d;
+}
+
+article header h1 {
+  font-size: 200%;
+  color: #9dd16d;
+  padding: 1em 0;
+}
+
+
+@media screen and (max-width: 768px){
+  article header time {
+    font-size: 100%;
+  }
+
+  article header h1 {
+    font-size: 180%;
+  }
+}
