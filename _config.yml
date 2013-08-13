@@ -1,4 +1,5 @@
 name: ほとラボ。
+url: http://hotolab.net
 markdown: redcarpet
 pygments: true
 permalink: blog/:title

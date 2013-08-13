@@ -10,9 +10,13 @@
   list-style-type: none;
 }
 
+a:link, a:visited { color: brown; }
+a:hover, a:active { color: orange; }
+
 body {
   color: #fff;
   background-color: #9dd16d;
+  font-family: sans-serif;
 }
 
 .container {
@@ -58,44 +62,44 @@ body {
   margin-left: 160px;
 }
 
-#social {
+#sns {
   font-size: medium;
   vertical-align: bottom;
   display: inline-block;
 }
 
-#social a {
+#sns a {
   display: inline-block;
   width: 32px;
   height: 32px;
   background-image: url(social.png);
 }
 
-#social a span {
+#sns a span {
   display: none;
 }
 
-#social .twitter {
+#sns .twitter {
   background-position: left top;
 }
-#social a.twitter:hover,
-#social a.twitter:active {
+#sns a.twitter:hover,
+#sns a.twitter:active {
   background-position: left bottom;
 }
 
-#social .facebook {
+#sns .facebook {
   background-position: center top;
 }
-#social a.facebook:hover,
-#social a.facebook:active {
+#sns a.facebook:hover,
+#sns a.facebook:active {
   background-position: center bottom;
 }
 
-#social .github {
+#sns .github {
   background-position: right top;
 }
-#social a.github:hover,
-#social a.github:active {
+#sns a.github:hover,
+#sns a.github:active {
   background-position: right bottom;
 }
 

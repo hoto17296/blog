@@ -11,9 +11,55 @@ article header time {
 article header h1 {
   font-size: 200%;
   color: #9dd16d;
-  padding: 1em 0;
+  margin: 1em 0;
 }
 
+section p {
+  margin: 1em 0;
+}
+
+/* standard */
+section pre {
+  color: #666;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+section ul,
+section ol {
+  margin-left: 1.35em;
+}
+
+section code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+section pre code {
+  border: none;
+}
+
+/* terminal */
+section pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+section pre.terminal code {
+  background-color: #333;
+}
+
+
+.social {
+  margin-top: 5em;
+}
+
+.social > div {
+  display: inline-block;
+}
 
 @media screen and (max-width: 768px){
   article header time {
