@@ -118,32 +118,3 @@ body {
     margin-left: 0;
   }
 }
-
-/* Entry */
-
-article header time {
-  display: inline-block;
-  font-family: 'やさしさゴシック';
-  font-size: 150%;
-  padding: 0 .7em .5em;
-  vertical-align: top;
-  color: #fff;
-  background-color: #9dd16d;
-}
-
-article header h1 {
-  font-size: 200%;
-  color: #9dd16d;
-  padding: 1em 0;
-}
-
-
-@media screen and (max-width: 768px){
-  article header time {
-    font-size: 100%;
-  }
-
-  article header h1 {
-    font-size: 180%;
-  }
-}
