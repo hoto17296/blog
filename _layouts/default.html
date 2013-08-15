@@ -5,6 +5,12 @@
   <meta content="width=device-width; initial-scale=1.0;" name="viewport" />
   <meta name="author" content="{{ site.author }}">
   <meta name="keywords" content="{{ page.tags | join:',' }}">
+
+  <meta content="{{ page.title }} ｜ {{ site.name }}" property="og:title" />
+  <meta content="article" property="og:type" />
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url" />
+  <meta content="{{ page.date | date: '%Y-%m-%d' }}" property="og:article:published_time" />
+  <meta content="summary" name="twitter:card" />
   
   <title>{{ page.title }}</title>
 
