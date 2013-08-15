@@ -1,13 +1,3 @@
-article header time {
-  display: inline-block;
-  font-family: 'やさしさゴシック';
-  font-size: 150%;
-  padding: 0 .7em .5em;
-  vertical-align: top;
-  color: #fff;
-  background-color: #9dd16d;
-}
-
 article header h1 {
   font-size: 200%;
   color: #9dd16d;

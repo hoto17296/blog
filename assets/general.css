@@ -42,6 +42,28 @@ body {
   padding-bottom: 4em;
 }
 
+#main .tab {
+  display: inline-block;
+  font-family: 'やさしさゴシック';
+  font-size: 150%;
+  padding: 0 .7em .5em;
+  vertical-align: top;
+  color: #fff;
+  background-color: #9dd16d;
+}
+
+#posts {
+  padding-top: 2em;
+}
+
+#posts li {
+  margin-top: .5em;
+}
+
+#posts li a {
+  margin-left: .5em;
+}
+
 #footer {
   padding: 4em 0;
   position: relative;
@@ -112,6 +134,11 @@ body {
   #header h1 {
     font-size: 300%;
     background: none;
+  }
+
+  #posts li a:before {
+    content: "\A";
+    white-space: pre;
   }
 
   #footer #icon {
