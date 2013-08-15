@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width; initial-scale=1.0;" name="viewport" />
-
-  <title>{{ site.name }}</title>
+  <meta name="author" content="{{ site.author }}">
+  <meta name="keywords" content="{{ page.tags | join:',' }}">
+  
+  <title>{{ page.title }}</title>
 
   <link href="/assets/general.css" media="all" rel="stylesheet" type="text/css" />
   <link href="/assets/post.css" media="all" rel="stylesheet" type="text/css" />
