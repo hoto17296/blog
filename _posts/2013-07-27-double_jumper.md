@@ -23,6 +23,7 @@ Gunosy とか はてなブックマーク は今更説明するまでもなく�
 
 ## DoubleJumper
 ![](/images/double_jumper.png)
+
 はてブとGunosyのクッションページから自動でリダイレクトしてくれるFirefoxアドオン「**DoubleJumper**」作った。
 
 [DoubleJumper :: Add-ons for Firefox](https://addons.mozilla.org/ja/firefox/addon/doublejumper/)
