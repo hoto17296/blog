@@ -4,44 +4,94 @@ article header h1 {
   margin: 1em 0;
 }
 
+section h2,
+section h3 {
+  margin-top: 2em;
+}
+
+section img {
+  max-width: 100%;
+}
+
 section p {
   margin: 1em 0;
 }
 
-/* standard */
-section pre {
-  color: #666;
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+section hr {
+  border: 0;
+  height: 1px;
+  background-color: #999;
+  margin: 3em 0;
+}
+
+section blockquote {
+  background-color: #f9f9f9;
+  border-left: .4em #ccc solid;
+  margin: 2em 0;
+  padding: .5em 2em;
+  position: relative;
+  z-index: 1;
+}
+
+section blockquote:before {
+  content: '”';
+  color: #ccc;
+  font-size: 600%;
+  line-height: 1em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 section ul,
 section ol {
-  margin-left: 1.35em;
+  text-indent: -1.3em;
+  padding-left: 2em;
+}
+
+section ul li:before {
+  content: '◆';
+  margin-right: .5em;
+  color: #9dd16d;
+  font-size: smaller;
+}
+
+section pre {
+  color: #666;
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
+  margin: 1em 0;
+  padding: .5em .7em;
 }
 
 section code {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
   padding: 0 .2em;
 }
 
 section pre code {
   border: none;
+  padding: 0;
 }
 
-/* terminal */
-section pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
+section table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-section pre.terminal code {
-  background-color: #333;
+section thead,
+section th {
+  background-color: #eee;
 }
 
+section th,
+section td {
+  border: 1px #ccc solid;
+  padding: .5em;
+}
 
 .social {
   margin-top: 5em;

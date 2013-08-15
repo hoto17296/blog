@@ -6,3 +6,5 @@ pygments: true
 permalink: blog/:title
 safe: true
 lsi: false
+redcarpet:
+  extensions: [tables]
