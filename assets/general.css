@@ -52,6 +52,22 @@ body {
   background-color: #9dd16d;
 }
 
+#feed {
+  display: inline-block;
+  margin: 10px 0 0 5px;
+  height: 25px;
+  width: 25px;
+  background-image: url(feed.png);
+}
+
+#feed:hover {
+  background-position: bottom;
+}
+
+#feed span {
+  display: none;
+}
+
 #posts {
   padding-top: 2em;
 }
