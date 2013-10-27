@@ -23,8 +23,13 @@
   <link rel="stylesheet" href="/assets/general.css" media="all" type="text/css" />
   <link rel="stylesheet" href="/assets/post.css" media="all" type="text/css" />
   <link rel="stylesheet" href="/assets/syntax.css" media="all" type="text/css" />
-
-  <script src="/assets/social.js" type="text/javascript"></script>
+{% for style in page.style %}
+  <link rel="stylesheet" href="/assets/post/{{ style }}" media="all" type="text/css" />
+{% endfor %}
+  <script src="/assets/social.js"></script>
+{% for script in page.script %}
+  <script src="/assets/post/{{ script }}"></script>
+{% endfor %}
 </head>
 <body>
 <div id="fb-root"></div>
