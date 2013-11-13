@@ -3,6 +3,7 @@ layout: post
 title: 'Web版Twitterを自動で更新するFirefoxアドオン'
 date: 2013-10-27
 tags: [Firefox]
+image: 'tweetclicker.png'
 ---
 
 ![Tweet Clicker](/images/tweetclicker.png)
