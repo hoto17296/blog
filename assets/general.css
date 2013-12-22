@@ -73,11 +73,46 @@ body {
 }
 
 #posts li {
-  margin-top: .5em;
+  clear: left;
 }
 
 #posts li a {
-  margin-left: .5em;
+  padding: 1em;
+  display: block;
+  text-decoration: none;
+}
+
+#posts li a:hover {
+  background-color: #f9f9f9;
+}
+
+#posts li a:after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+#posts .thumbnail {
+  width: 10em;
+  height: 10em;
+  line-height: 10em;
+  float: left;
+  margin-right: 1em;
+}
+
+#posts .thumbnail img {
+  max-width: 10em;
+  max-height: 10em;
+  vertical-align: middle;
+}
+
+#posts h3 {
+  color: #9DD16D;
+}
+
+#posts time,
+#posts p {
+  color: #888;
 }
 
 #footer {
@@ -152,10 +187,19 @@ body {
     background: none;
   }
 
+  #posts li a {
+    padding: 1em 0;
+  }
+
+  #posts .thumbnail {
+    display: none;
+  }
+/*
   #posts li a:before {
     content: "\A";
     white-space: pre;
   }
+*/
 
   #footer #icon {
     display: none;
