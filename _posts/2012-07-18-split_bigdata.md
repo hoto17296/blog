@@ -3,6 +3,7 @@ layout: post
 title: 'Macの大容量ファイルをWindowsに転送する方法'
 date: 2012-07-18
 tags: [Mac]
+description: 'MacとWindowsでマトモに互換のあるファイルフォーマットってFAT32くらいなんですが、そのFAT32は１ファイルあたりのサイズ上限が4GBなんですよね(-＿-;)'
 ---
 
 MacとWindowsでマトモに互換のあるファイルフォーマットってFAT32くらいなんですが、そのFAT32は１ファイルあたりのサイズ上限が4GBなんですよね(-＿-;)

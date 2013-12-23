@@ -3,6 +3,7 @@ layout: post
 title: 'CakePHP2でバリデーションエラーを取得する方法まとめ'
 date: 2012-06-09
 tags: [CakePHP]
+description: 'CakePHPのバリデーション機能って便利だよね。'
 ---
 
 CakePHPのバリデーション機能って便利だよね。

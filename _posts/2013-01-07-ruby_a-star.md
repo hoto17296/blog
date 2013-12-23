@@ -3,6 +3,7 @@ layout: post
 title: 'Rubyで A*アルゴリズム を実装する'
 date: 2013-01-07
 tags: [Ruby]
+description: 'A*アルゴリズム(A-star algorithm)とは探索アルゴリズムの一種で、最短経路っぽいものを探していく方法です。'
 ---
 
 [A*アルゴリズム(A-star algorithm)](http://ja.wikipedia.org/wiki/A* "A* - Wikipedia" )とは探索アルゴリズムの一種で、

@@ -3,6 +3,8 @@ layout: post
 title: 'nginx + Unicorn で Rails3 を動かす'
 date: 2012-12-29
 tags: [Ruby, Ruby on Rails, イベント]
+description: '昨日、名古屋エンジニアずのハッカソンに行ってきた(・∀・)'
+image: 'nagoyaengineers.jpg'
 ---
 
 ![](/images/nagoyaengineers.jpg)

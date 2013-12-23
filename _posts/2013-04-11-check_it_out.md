@@ -3,6 +3,7 @@ layout: post
 title: 'HIPHOP系プログラミング言語 ﾁｪｹﾗｰ'
 date: 2013-04-11
 tags: [Ruby]
+description: 'なんかプログラミング言語つくった。'
 ---
 
 なんかプログラミング言語つくった。

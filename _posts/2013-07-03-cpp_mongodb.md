@@ -3,6 +3,7 @@ layout: post
 title: 'C++ から MongoDB を扱えるようにしたメモ'
 date: 2013-07-03
 tags: [C++, MongoDB]
+description: 'なぜか２日も費やしてしまったので忘れないようメモ。ちなみにOSは Mac OS X Mountain Lion。'
 ---
 
 なぜか２日も費やしてしまったので忘れないようメモ。

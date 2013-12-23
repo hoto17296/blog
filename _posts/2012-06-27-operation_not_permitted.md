@@ -3,6 +3,8 @@ layout: post
 title: 'Macで「operation not permitted」と怒られた際の対処法'
 date: 2012-06-27
 tags: [Mac]
+description: '久しぶりの投稿です。だいぶサボりました(´・ω・)'
+image: 'exec_cake.png'
 ---
 
 久しぶりの投稿です。

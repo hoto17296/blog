@@ -3,6 +3,7 @@ layout: post
 title: 'Haskell勉強会してきたレポ'
 date: 2013-06-02
 tags: [イベント, Haskell]
+description: '@tacke_jpさんと「Haskell勉強会したいですねー」って話をしてて「じゃあやろっか」ってなったのでやってきた。'
 ---
 
 [@tacke_jp](https://twitter.com/tacke_jp)さんと「Haskell勉強会したいですねー」って話をしてて「じゃあやろっか」ってなったのでやってきた。

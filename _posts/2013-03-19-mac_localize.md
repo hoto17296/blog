@@ -3,6 +3,8 @@ layout: post
 title: 'Mac OS X のFinderで英語のフォルダを日本語で表示する'
 date: 2013-03-19
 tags: [Mac]
+description: 'Macのターミナルでファイル一覧を見るとフォルダ名は英語になっているのだが、これをFinderで見ると日本語で表示されている。これ非常に便利。しかしながら、いくつか不満点がある。'
+image: 'finder_after.png'
 ---
 
 ## Mac OS X の便利機能
@@ -102,6 +104,6 @@ $ touch .localized
 
 あとは、Finderを再起動すれば・・・
 
-![](http://img.hotolab.net/finder_after.png)
+![](/images/finder_after.png)
 
 できた！！ (・∀・)

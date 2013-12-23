@@ -3,6 +3,7 @@ layout: post
 title: 'Mac OS X Mountain Lion に MeCab と CaboCha をインストールする'
 date: 2012-12-04
 tags: [Mac, 自然言語処理]
+description: '新しい Mac mini に 日本語形態素解析器MeCab と 係り受け解析器CaboCha を入れたのでメモ。'
 ---
 
 新しい Mac mini に 日本語形態素解析器**MeCab** と 係り受け解析器**CaboCha** を入れたのでメモ。

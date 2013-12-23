@@ -3,6 +3,8 @@ layout: post
 title: '煩わしいクッションページをすっ飛ばすFirefoxアドオン作った'
 date: 2013-07-27
 tags: []
+description: 'はてブとGunosyのクッションページから自動でリダイレクトしてくれるFirefoxアドオン「DoubleJumper」作った。'
+image: 'double_jumper.png'
 ---
 
 Gunosy とか はてなブックマーク は今更説明するまでもなく素晴らしいキュレーションサービスで、いつもお世話になっているのだけど、如何せんあのクッションページだけはいただけない。

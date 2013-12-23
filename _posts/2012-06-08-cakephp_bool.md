@@ -3,6 +3,7 @@ layout: post
 title: 'CakePHP+MySQLで論理型(Boolean)を扱う方法'
 date: 2012-06-08
 tags: [CakePHP, MySQL]
+description: 'MySQLのDBを設計してる時に「あれ、論理型なくね？」ってなって、調べてみても ENUM(‘TRUE’, ‘FALSE’)？？？ なんじゃそりゃわけわからんしかもCakePHPじゃ対応してないし(´Д｀)'
 ---
 
 MySQLのDBを設計してる時に「あれ、論理型なくね？」ってなって、  
