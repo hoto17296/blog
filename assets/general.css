@@ -98,12 +98,8 @@ body {
   line-height: 10em;
   float: left;
   margin-right: 1em;
-}
-
-#posts .thumbnail img {
-  max-width: 10em;
-  max-height: 10em;
-  vertical-align: middle;
+  background-size: cover;
+  background-position: center center;
 }
 
 #posts h3 {
@@ -113,6 +109,33 @@ body {
 #posts time,
 #posts p {
   color: #888;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.pagination > * {
+  padding: .5em;
+}
+
+.pagination span {
+}
+
+.pagination span.current {
+  color: #fff;
+  background-color: #9DD16D;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ccc;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
 }
 
 #footer {

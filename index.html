@@ -8,11 +8,10 @@ title: ほとラボ。
       <span>RSS feed</span>
     </a>
     <ul id="posts">
-      {% for post in site.posts %}
+      {% for post in paginator.posts %}
       <li>
         <a href="{{ post.url }}">
-          <div class="thumbnail">{% if post.image %}
-            <img src="/images/{{ post.image }}" />{% endif %}
+          <div class="thumbnail"{% if post.image %} style="background-image: url(/images/{{ post.image }})"{% endif %}>
           </div>
           <h3>{{ post.title }}</h3>
           <time>{{ post.date | date: "%Y-%m-%d" }}</time>
@@ -21,3 +20,5 @@ title: ほとラボ。
       </li>
       {% endfor %}
     </ul>
+
+{% include paginator.html %}

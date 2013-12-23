@@ -1,6 +1,7 @@
 name: ほとラボ。
 url: http://hotolab.net
 author: ほと
+paginate: 10
 markdown: redcarpet
 pygments: true
 permalink: blog/:title
