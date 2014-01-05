@@ -1,0 +1,25 @@
+
+#TextDifficulty {
+  background-color: #eee;
+  padding: 1em;
+}
+
+#TextDifficulty input[type='text'] {
+  border: 1px #ccc solid;
+  padding: .5em;
+  font-size: larger;
+}
+
+#TextDifficulty input[type='submit'] {
+  color: #fff;
+  background-color: #9DD16D;
+  border: 0;
+  padding: .5em;
+  font-size: larger
+}
+
+#TextDifficulty .loading {
+  display: none;
+  height: 2em;
+  vertical-align: middle;
+}
