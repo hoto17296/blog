@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '画像処理による日本語文章の難易度判定システム'
-date: 2014-01-01
+date: 2014-01-05
 tags: [自然言語処理, 画像処理]
 description: 'あけましておめでとうございます。新年早々ネタエントリです。'
 image: 'textdifficulty/00.png'
