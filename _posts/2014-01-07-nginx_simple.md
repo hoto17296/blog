@@ -78,3 +78,20 @@ $ chmod o+x /home/hoto/
 
 なんで実行権限がいるのかはわからない。  
 誰か教えて(´・ω・)
+
+---
+
+## 追記
+教えていただきました。
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/hoto17296">@hoto17296</a> ディレクトリの実行権限とは、そのディレクトリに移動する権利だからです。ということではなく？</p>&mdash; Terra生まれの丁 (@gotoki_no_joe) <a href="https://twitter.com/gotoki_no_joe/statuses/420560667725156352">January 7, 2014</a></blockquote>
+
+そういうことでした。
+
+> [UNIX のパーミッション](http://www.loveruby.net/ja/misc/perm.html)
+
+|| ディレクトリのパーミッション |
+|---|:---|
+| r | そのディレクトリを ls できる |
+| w | そのディレクトリの中でファイルを作成・消去できる |
+| x | そのディレクトリの中のファイルにアクセスできる |
