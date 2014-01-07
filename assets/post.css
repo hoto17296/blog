@@ -81,6 +81,7 @@ section table {
   margin: 1em 0;
   border-collapse: collapse;
   border-spacing: 0;
+  background-color: #fff;
 }
 
 section thead,
