@@ -99,10 +99,6 @@ section td {
   margin-top: 5em;
 }
 
-.social > div {
-  display: inline-block;
-}
-
 @media screen and (max-width: 768px){
   article header time {
     font-size: 100%;

@@ -1,6 +1,7 @@
 name: ほとラボ。
 url: http://hotolab.net
 author: ほと
+profile: ゆとりWebエンジニア。<br/>長い長いモラトリアムを経て、今春ついに上京。
 paginate: 10
 markdown: redcarpet
 pygments: true
