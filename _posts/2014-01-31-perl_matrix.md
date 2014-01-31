@@ -3,7 +3,7 @@ layout: post
 title: 'Perlで配列リファレンスを使わずに多次元配列を扱えるか？'
 date: 2014-01-31
 tags: [Perl]
-description: 'なんか納得がいかないので、 Perlに詳しい方ご教授ください(´･\_･`)'
+description: 'なんか納得がいかないので、 Perlに詳しい方ご教授ください(´･_･`)'
 image: ''
 ---
 
