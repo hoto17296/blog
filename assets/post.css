@@ -99,6 +99,11 @@ section td {
   margin-top: 5em;
 }
 
+/* Facebookいいね！ボタンのズレ解消 */
+.social .fb-like span {
+  vertical-align: baseline !important;
+}
+
 @media screen and (max-width: 768px){
   article header time {
     font-size: 100%;
