@@ -3,7 +3,7 @@ layout: post
 title: '悪徳プロバイダにハマった話'
 date: 2014-03-01
 tags: [プロバイダ,フォーバルテレコム]
-description: ''
+description: 'フォーバルテレコムというプロバイダと契約したら痛い目に遭ったという話'
 image: ''
 ---
 
