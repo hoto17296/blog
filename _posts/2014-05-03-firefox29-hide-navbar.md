@@ -11,7 +11,7 @@ image: 'firefox29_hide_statusbar/1.png'
 
 <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>Firefox 29: 完全な新デザインによる大型アップデート <a href="http://t.co/7ZaoBGOIwx">http://t.co/7ZaoBGOIwx</a>&#10;Firefoxアップデートしたらナビゲーションバー非表示にできなくなっててキレそう&#10;ずっとこのままならChromeへの乗り換えも辞さない</p>&mdash; ほと (@hoto17296) <a href="https://twitter.com/hoto17296/statuses/462177411337957376">May 2, 2014</a></blockquote>
 
-なぜステータスバーが表示できないでキレそうなのかというと、そもそもブラウザにツールバーの類は一切必要ないものだからだ。
+なぜステータスバーが非表示にできないでキレそうなのかというと、そもそもブラウザにツールバーの類は一切必要ないものだからだ。
 タブは [ツリータブ][treetab] を使って横に表示するし、ブラウザの操作は [Vimperator][vimperator] で行うのでキーボードさえあればよい。
 
 [treetab]: https://addons.mozilla.org/ja/firefox/addon/tree-style-tab/
