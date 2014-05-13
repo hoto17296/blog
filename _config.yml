@@ -4,9 +4,10 @@ author: ほと
 profile: ゆとりWebエンジニア
 paginate: 10
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: blog/:title
 safe: true
 lsi: false
 redcarpet:
   extensions: [tables]
+exclude: [Rakefile]
