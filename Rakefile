@@ -1,3 +1,5 @@
+EDITOR = 'vim'
+
 namespace :blog do
 
   desc '新しいエントリを作成'
@@ -7,7 +9,7 @@ namespace :blog do
     file = "_posts/#{date}-#{args.title}.md"
     raise file + ' is already exist.' if File.exist?(file)
     File.open(file, 'w'){|f| f.write template date }
-    vi file
+    editor file
   end
 
   desc 'エントリを編集'
@@ -16,7 +18,7 @@ namespace :blog do
     posts = Dir::glob("_posts/*#{args.title}*.md")
     raise "post '#{args.title}' is not found." if posts.empty?
     if posts.size == 1
-      vi posts[0]
+      editor posts[0]
     else
       puts posts.join("\n")
     end
@@ -64,8 +66,8 @@ namespace :blog do
 
   end
 
-  def vi(file)
-    `vi #{file} < \`tty\` > \`tty\``
+  def editor(file)
+    `#{EDITOR} #{file} < \`tty\` > \`tty\``
   end
 
   def template(date)
