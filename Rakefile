@@ -30,7 +30,7 @@ namespace :blog do
   end
 
   desc 'エントリを表示'
-  task :show do
+  task :preview do
     if running?
       Rake::Task['blog:server:start'].execute
       puts 'Starting Jekyll Server...'
