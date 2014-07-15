@@ -39,8 +39,8 @@ $ docker run -d centos /sbin/init
 ```
 
 ```
-$ docker commit <CONTAINER ID> centos/sshd
-$ docker run -d -p22 centos /sbin/init
+$ docker commit <CONTAINER ID> hoto17296/sshd
+$ docker run -d -p22 hoto17296/sshd /sbin/init
 ```
 
 ちなみに、こないだ正式リリースされた CentOS7 からは Systemd が導入されたから別の方法いるぽい。
