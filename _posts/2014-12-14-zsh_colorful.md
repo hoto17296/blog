@@ -4,7 +4,7 @@ title: 'zshで真っ黒な世界がカラフルに色づく話'
 date: 2014-12-14
 tags: [zsh, iTerm, ヌマクロー]
 description: 'zsh Advent Calendar 2014 14日目の記事です。'
-image: 'iterm_numakuro.gif'
+image: 'zsh_colorful.png'
 ---
 
 [zsh Advent Calendar 2014](http://qiita.com/advent-calendar/2014/zsh)
