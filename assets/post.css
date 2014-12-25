@@ -105,6 +105,11 @@ section td {
   vertical-align: baseline !important;
 }
 
+/* Pocketボタンがブロック要素なのを解消 */
+.social .pocket-btn {
+  display: inline-block;
+}
+
 @media screen and (max-width: 768px){
   article header time {
     font-size: 100%;

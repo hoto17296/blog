@@ -14,4 +14,6 @@
   a("//b.st-hatena.com/js/bookmark_button_wo_al.js");
   a("//platform.twitter.com/widgets.js", "twitter-wjs");
   a("//connect.facebook.net/ja_JP/all.js#xfbml=1", "facebook-jssdk");
+  a("//widgets.getpocket.com/v1/j/btn.js?v=1", "pocket-btn-js");
+  a("//hotolab.disqus.com/embed.js");
 })(this, document);
