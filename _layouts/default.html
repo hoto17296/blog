@@ -25,7 +25,10 @@
   <link rel="stylesheet" href="/assets/syntax.css" media="all" type="text/css" />
 {% for style in page.style %}  <link rel="stylesheet" href="/assets/post/{{ style }}" media="all" type="text/css" />
 {% endfor %}
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script src="/assets/social.js"></script>
+  <script src="/assets/ripple.js"></script>
+  <script> $(function(){ $('body').ripple() }) </script>
 {% for script in page.script %}  <script src="/assets/post/{{ script }}"></script>
 {% endfor %}
 </head>
