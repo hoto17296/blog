@@ -13,15 +13,15 @@ namespace :blog do
   end
 
   desc 'エントリを編集'
-  task :edit, [:title] do |task, args|
-    raise 'Usage: rake blog:edit[title]' if args.title.nil?
-    posts = Dir::glob("_posts/*#{args.title}*.md")
-    raise "post '#{args.title}' is not found." if posts.empty?
-    if posts.size == 1
-      editor posts[0]
+  task :edit, [:search] do |task, args|
+    if args.search.nil?
+      post = Dir::glob("_posts/*.md").last
+      raise "No post." if post.nil?
     else
-      puts posts.join("\n")
+      post = Dir::glob("_posts/*#{args.search}*.md").last
+      raise "Post '#{args.search}' is not found." if post.nil?
     end
+    editor post
   end
 
   desc 'エントリ一覧'
