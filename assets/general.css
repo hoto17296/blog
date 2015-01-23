@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'やさしさゴシック';
-  src: url('yasashisa.woff');
+  src: url('fonts/yasashisa.woff');
 }
 
 * {
@@ -14,7 +14,7 @@ a:link, a:visited { color: brown; }
 a:hover, a:active { color: orange; }
 
 body {
-  color: #fff;
+  color: white;
   background-color: #9dd16d;
   font-family: sans-serif;
 }
@@ -26,42 +26,42 @@ body {
 
 #header h1 {
   font-family: 'やさしさゴシック';
-  font-size: 400%;
+  font-size: 4em;
   padding: 1.5em 0;
   background: url(header.png) no-repeat right bottom;
 }
 
 #header h1 a {
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
 #main {
-  color: #888;
-  background-color: #fff;
+  color: gray;
+  background-color: white;
   padding-bottom: 4em;
 }
 
 #main .tab {
   display: inline-block;
   font-family: 'やさしさゴシック';
-  font-size: 150%;
+  font-size: 1.5em;
   padding: 0 .7em .5em;
   vertical-align: top;
-  color: #fff;
+  color: white;
   background-color: #9dd16d;
 }
 
 #feed {
   display: inline-block;
-  margin: 10px 0 0 5px;
-  height: 25px;
-  width: 25px;
-  background-image: url(feed.png);
+  margin: .3em 0 0 .1em;
+  font-size: 1.7em;
+  color: gray;
+  text-decoration: none;
 }
 
 #feed:hover {
-  background-position: bottom;
+  color: orange;
 }
 
 #feed span {
@@ -83,7 +83,7 @@ body {
 }
 
 #posts li a:hover {
-  background-color: #f9f9f9;
+  background-color: whitesmoke;
 }
 
 #posts li a:after {
@@ -103,12 +103,12 @@ body {
 }
 
 #posts h3 {
-  color: #9DD16D;
+  color: #9dd16d;
 }
 
 #posts time,
 #posts p {
-  color: #888;
+  color: gray;
 }
 
 .pagination {
@@ -124,13 +124,13 @@ body {
 }
 
 .pagination span.current {
-  color: #fff;
-  background-color: #9DD16D;
+  color: white;
+  background-color: #9dd16d;
 }
 
 .pagination a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   background-color: #ccc;
 }
 
@@ -144,14 +144,14 @@ body {
 }
 
 #footer h1 {
-  font-size: 300%;
+  font-size: 3em;
   font-family: 'やさしさゴシック';
   margin-bottom: .5em;
 }
 
 #footer #icon {
   position: absolute;
-  border: 6px #fff solid;
+  border: 6px white solid;
 }
 
 #footer #profile {
@@ -206,7 +206,7 @@ body {
   }
 
   #header h1 {
-    font-size: 300%;
+    font-size: 3em;
     background: none;
   }
 
