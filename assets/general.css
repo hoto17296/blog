@@ -198,6 +198,8 @@ body {
 #sns a {
   color: white;
   text-decoration: none;
+  transition-property: color, text-shadow;
+  transition-duration: 200ms;
 }
 
 #sns a:hover,
