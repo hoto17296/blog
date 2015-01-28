@@ -15,25 +15,23 @@ image: ''
 ``` sh
 export EDITOR=vim # 好きなエディタ
 
-function peco-select-path() {
+function peco-path() {
   local filepath="$(find . | grep -v '/\.' | peco --prompt 'PATH>')"
-  if [ "$LBUFFER" -eq "" ]; then
+  [ -z "$filepath" ] && return
+  if [ -n "$LBUFFER" ]; then
+    BUFFER="$LBUFFER$filepath"
+  else
     if [ -d "$filepath" ]; then
       BUFFER="cd $filepath"
     elif [ -f "$filepath" ]; then
       BUFFER="$EDITOR $filepath"
     fi
-  else
-    BUFFER="$LBUFFER$filepath"
   fi
   CURSOR=$#BUFFER
-  zle clear-screen
 }
 
-if [ -x "`which peco 2> /dev/null`" ]; then
-  zle -N peco-select-path
-  bindkey '^f' peco-select-path # Ctrl+f で起動
-fi
+zle -N peco-path
+bindkey '^f' peco-path # Ctrl+f で起動
 ```
 
 ## 状況に応じて3パターンの動作をする
