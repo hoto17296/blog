@@ -1,5 +1,5 @@
 article header h1 {
-  font-size: 200%;
+  font-size: 2em;
   color: #9dd16d;
   margin: 1em 0;
 }
@@ -21,13 +21,13 @@ section p {
 section hr {
   border: 0;
   height: 1px;
-  background-color: #888;
+  background-color: gray;
   margin: 3em 0;
 }
 
 section blockquote {
-  background-color: #f9f9f9;
-  border-left: .4em #ccc solid;
+  background-color: whitesmoke;
+  border-left: .4em silver solid;
   margin: 2em 0;
   padding: .5em 2em;
   position: relative;
@@ -36,8 +36,8 @@ section blockquote {
 
 section blockquote:before {
   content: '”';
-  color: #ccc;
-  font-size: 600%;
+  color: silver;
+  font-size: 6em;
   line-height: 1em;
   position: absolute;
   left: 0;
@@ -59,17 +59,16 @@ section ul li:before {
 }
 
 section pre {
-  color: #666;
-  border: 1px solid #eee;
-  background-color: #f9f9f9;
+  border: 1px solid silver;
+  background-color: whitesmoke;
   margin: 1em 0;
   padding: .5em .7em;
   overflow: scroll;
 }
 
 section code {
-  border: 1px solid #eee;
-  background-color: #f9f9f9;
+  border: 1px solid silver;
+  background-color: whitesmoke;
   padding: 0 .2em;
 }
 
@@ -82,17 +81,17 @@ section table {
   margin: 1em 0;
   border-collapse: collapse;
   border-spacing: 0;
-  background-color: #fff;
+  background-color: white;
 }
 
 section thead,
 section th {
-  background-color: #eee;
+  background-color: whitesmoke;
 }
 
 section th,
 section td {
-  border: 1px #ccc solid;
+  border: 1px silver solid;
   padding: .5em;
 }
 
@@ -112,10 +111,10 @@ section td {
 
 @media screen and (max-width: 768px){
   article header time {
-    font-size: 100%;
+    font-size: 1em;
   }
 
   article header h1 {
-    font-size: 180%;
+    font-size: 1.8em;
   }
 }
