@@ -7,7 +7,7 @@ description: 'ゴールデンウィークに React + Flux の練習も兼ねて 
 image: 'topic_timer_ogp.png'
 ---
 
-![](/images/topic_timer_head.png)
+[![](/images/topic_timer_head.png)](http://hotolab.net/TopicTimer/)
 
 ゴールデンウィークに React + Flux の練習も兼ねて
 **[Topic Timer](http://hotolab.net/TopicTimer/)**
