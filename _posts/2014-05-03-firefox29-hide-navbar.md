@@ -7,6 +7,12 @@ description: 'Mozillaは世界60億人のプロインターネットサーファ
 image: 'firefox29_hide_statusbar/1.png'
 ---
 
+追記
+
+今はこんな面倒なことしなくても `set gui=nonavigation` でナビゲーションバーを消せます。
+
+---
+
 ## 事の顛末
 
 <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>Firefox 29: 完全な新デザインによる大型アップデート <a href="http://t.co/7ZaoBGOIwx">http://t.co/7ZaoBGOIwx</a>&#10;Firefoxアップデートしたらナビゲーションバー非表示にできなくなっててキレそう&#10;ずっとこのままならChromeへの乗り換えも辞さない</p>&mdash; ほと (@hoto17296) <a href="https://twitter.com/hoto17296/statuses/462177411337957376">May 2, 2014</a></blockquote>
