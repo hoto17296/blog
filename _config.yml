@@ -3,7 +3,6 @@ url: http://hotolab.net
 author: ほと
 profile: ゆとりWebエンジニア
 paginate: 10
-markdown: redcarpet
 highlighter: pygments
 permalink: blog/:title
 safe: true
