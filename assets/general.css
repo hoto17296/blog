@@ -62,7 +62,7 @@ body {
 }
 
 #main {
-  color: gray;
+  color: #666;
   background-color: white;
   padding-bottom: 4em;
 }
@@ -81,7 +81,7 @@ body {
   display: inline-block;
   margin: .3em 0 0 .1em;
   font-size: 1.7em;
-  color: gray;
+  color: #666;
   text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ body {
 
 #posts time,
 #posts p {
-  color: gray;
+  color: #666;
 }
 
 .pagination {
